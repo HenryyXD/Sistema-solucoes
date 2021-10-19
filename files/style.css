@@ -1,0 +1,116 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  background-image: url("../img/logo2.png");
+  height: 340px;
+  width: 340px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-group-item-action{
+  transition: background-color 0.3s ease;
+}
+
+.list-group-flush{
+  margin-bottom: 75px;
+}
+
+
+.fundo,.fundo:focus{
+  background-color:rgb(255, 255, 255);
+}
+
+.list-group-item-action:not(.active):hover{
+  background-color:#C1C0C6;
+  color: black; 
+}
+
+.active{
+  background:#0065d1 !important;
+  border-color:#0065d1 !important;
+}
+
+
+.fundo2,.jumbotron{
+  background:#0f1626;
+  color: white;
+}
+
+.jumbotron.col-lg-12{
+  background:#062f4f;
+}
+
+.fixed-height{
+  border-bottom: none !important;
+}
+
+.bootstrap-table .fixed-table-container.fixed-height.has-card-view{
+  border-top: none !important;
+} 
+
+.fixed-table-border {
+  border-left: none !important;
+  border-right: none !important; 
+  height: 0px !important;
+}
+
+th{
+  background: #282b2f;
+}
+
+@media screen and (max-width: 576px) {  
+  .display-2{
+    font-size: 3.9em;
+  }
+  .display-4{
+    font-size: 2.5em;
+  }
+  .display-3{
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 576px) {  
+  .display-4{
+    font-size: 2.8em;
+  }
+  .display-3{
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 768px) {  
+  .display-4{
+    font-size: 3.1em;
+  }
+  .display-3{
+    font-size: 2.1em;
+  }
+}
+ 
+@media screen and (min-width: 992px) { 
+  .display-4{
+    font-size: 3.2em;
+  }
+  .display-3{
+    font-size: 2.2em;
+  }
+  #left{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+}
+  
+
+@media screen and (min-width: 1200px) {  
+  .display-5{
+    font-size: 3em;
+  }
+}
+
